@@ -1,7 +1,6 @@
 "use client";
 
-import { Days } from "@ellipsis/shared/components/Days.js";
-import { calculateDays } from "@ellipsis/shared/utils/calculate_days.js";
+import { calculateDays, Days } from "@ellipsis/shared";
 import React from "react";
 import logo_large from "../public/logo_large.png";
 
@@ -9,7 +8,7 @@ export default function Home() {
   const [day, setDay] = React.useState(0);
 
   const setDays = () => {
-    const days = calculateDays();
+    const days = calculateDays(process.env.NEXT_PUBLIC_LAUNCH_DATE!);
     setDay(days);
   };
 

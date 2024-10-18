@@ -1,5 +1,5 @@
-export function calculateDays() {
-  const start = new Date("01/01/2024");
+export function calculateDays(start_date: string) {
+  const start = new Date(start_date);
   const timeDifference = new Date().getTime() - start.getTime();
   const days = timeDifference / (1000 * 3600 * 24);
 
