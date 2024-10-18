@@ -1,8 +1,7 @@
 "use client";
 
-import { Days } from "@ellipsis/shared/components/Days";
-import { calculateDays } from "@ellipsis/shared/utils/calculate_days";
-
+import { Days } from "@ellipsis/shared/components/Days.js";
+import { calculateDays } from "@ellipsis/shared/utils/calculate_days.js";
 import React from "react";
 import logo_large from "../public/logo_large.png";
 

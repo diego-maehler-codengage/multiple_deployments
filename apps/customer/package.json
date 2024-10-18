@@ -6,13 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@ellipsis/shared": "*",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.15",
-    "@ellipsis/shared": "file:../../shared/src"
+    "next": "14.2.15"
   },
   "devDependencies": {
     "typescript": "^5",
