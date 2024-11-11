@@ -16,7 +16,7 @@ This follows the convention of [NPM Workspaces](https://vercel.com/docs/vercel-p
 
 This project uses [Turborepo](https://turbo.build/repo) for managing and running tasks across multiple packages and applications in a monorepo structure.
 
-### Prerequisites
+### Pre-requisites
 
 Ensure you have the necessary dependencies installed:
 
@@ -46,7 +46,7 @@ turbo dev --filter=admin
 
 ## Deploying to Vercel
 
-When configuring the deployment, simply select the app's folder that you want to deploy as the root folder of the deployment.
+When configuring the deployment, simply select the app's folder that you want to deploy as the root folder for that deployment.
 
 ### Environment variables
 
